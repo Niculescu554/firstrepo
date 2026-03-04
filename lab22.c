@@ -6,9 +6,8 @@ int function(int x){
 	x=x-2;
 	if(x>=0){
 	x=function(x);
-	return function(x);
-			}	
-	else return x;
+	}	
+	return x;
 }	
 
 int main(){
